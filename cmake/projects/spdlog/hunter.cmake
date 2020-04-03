@@ -101,6 +101,17 @@ hunter_add_version(
     PACKAGE_NAME
     spdlog
     VERSION
+    "1.4.2"
+    URL 
+    "https://github.com/gabime/spdlog/archive/v1.4.2.zip"
+    SHA1 
+    "4b10e9aa17f7d568e24f464b48358ab46cb6f39c"
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    spdlog
+    VERSION
     "1.4.2-p0"
     URL
     "https://github.com/hunter-packages/spdlog/archive/v1.4.2-p0.tar.gz"
