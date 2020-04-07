@@ -422,6 +422,12 @@ hunter_add_version(
     26a52840e9d12f829e3008589abf0a925ce88524
 )
 
+hunter_cmake_args(
+    Boost
+	CMAKE_ARGS 
+		CMAKE_POSITION_INDEPENDENT_CODE=ON
+)
+
 if(MSVC)
   hunter_check_toolchain_definition(NAME "_DLL" DEFINED _hunter_vs_md)
   hunter_cmake_args(
