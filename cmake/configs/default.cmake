@@ -324,6 +324,7 @@ else()
 endif()
 
 hunter_default_version(kNet VERSION 2.7-p1)
+hunter_default_version(kagome VERSION 0.0.1)
 hunter_default_version(kbproto VERSION 1.0.7)
 hunter_default_version(lcms VERSION 2.9-p0)
 hunter_default_version(lehrfempp VERSION 0.7.21)
